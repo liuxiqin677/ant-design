@@ -25,7 +25,7 @@ const content = (
 
 ReactDOM.render(
   <div>
-    <Popover content={content} title="Title" trigger="hover">
+    <Popover style={{width:'500px'}} content={content} title="Title" trigger="hover">
       <Button>Hover me</Button>
     </Popover>
     <Popover content={content} title="Title" trigger="focus">
